@@ -1,5 +1,5 @@
 const form = document.querySelector("#form");
-// const fName = document.querySelector("#fName").setAttribute("required")
+const fName = document.querySelector("#fName").setAttribute("required")
 const subBtn = document.getElementById("submit");
 subBtn.addEventListener("click", (e) => {
   e.preventDefault();
